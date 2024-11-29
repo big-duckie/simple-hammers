@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "simple-hammers:stone_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["simple-hammers:stone_hammer"]
+  }
+}

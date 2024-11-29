@@ -1,0 +1,61 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simple-hammers:diamond_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:emerald_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:ender_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:fiery_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:golden_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:iron_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:lapis_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:netherite_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:obsidian_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:prismarine_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:quartz_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:slime_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:stone_hammer",
+      "required": false
+    },
+    {
+      "id": "simple-hammers:wooden_hammer",
+      "required": false
+    }
+  ]
+}

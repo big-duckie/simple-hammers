@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "simple-hammers",
+  "version": "${version}",
+  "name": "Simple Hammers",
+  "description": "Adds hammers that break a 3x3 area. Forked from Draylar's Vanilla Hammers.",
+  "authors": [
+    "Big Duckie",
+    "Draylar"
+  ],
+  "contact": {
+    "homepage": "https://bigduckie.dev/mc-mods/simple-hammers",
+    "sources": "https://git.bigduckie.dev/big-duckie/simple-hammers"
+  },
+  "license": "MIT",
+  "icon": "assets/simple-hammers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.bigduckie.simplehammers.SimpleHammers"
+    ]
+  },
+  "mixins": [
+    "simple-hammers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

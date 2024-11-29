@@ -1,0 +1,25 @@
+{
+  "item.simple-hammers.wooden_hammer": "Marteau en bois",
+  "item.simple-hammers.stone_hammer": "Marteau en pierre",
+  "item.simple-hammers.iron_hammer": "Marteau en fer",
+  "item.simple-hammers.golden_hammer": "Marteau en or",
+  "item.simple-hammers.diamond_hammer": "Marteau en diamant",
+  "item.simple-hammers.emerald_hammer": "Marteau en émeraude",
+  "item.simple-hammers.obsidian_hammer": "Marteau en obsidienne",
+  "item.simple-hammers.lapis_hammer": "Marteau en lapis-lazuli",
+  "item.simple-hammers.quartz_hammer": "Marteau en quartz",
+  "item.simple-hammers.tater_hammer": "Marteau Lil Tater",
+  "item.simple-hammers.fiery_hammer": "Marteau ardent",
+  "item.simple-hammers.prismarine_hammer": "Marteau en prismarine",
+  "item.simple-hammers.slime_hammer": "Marteau en slime",
+  "item.simple-hammers.ender_hammer": "Marteau de l'Ender",
+
+  "item.simple-hammers.vibranium_hammer": "Marteau en vibranium",
+  "item.simple-hammers.glowstone_hammer": "Marteau en pierre lumineuse",
+  "item.simple-hammers.nether_hammer": "Marteau du Nether",
+
+  "text.autoconfig.simple-hammers.category.default": "Général",
+  "text.autoconfig.simple-hammers.title": "Config de Vanilla Hammers",
+
+  "item.simple-hammers.dynagear_hammer": "Marteau en %s"
+}

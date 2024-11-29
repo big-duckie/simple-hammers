@@ -1,0 +1,36 @@
+{
+  "parent": "simple-hammers:hammers/diamond_hammer",
+  "display": {
+    "icon": {
+      "item": "simple-hammers:netherite_hammer"
+    },
+    "title": {
+      "translate": "simple-hammers.advancements.netherite_hammer.title"
+    },
+    "description": {
+      "translate": "simple-hammers.advancements.netherite_hammer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "netherite_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["simple-hammers:netherite_hammer"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_hammer"
+    ]
+  ]
+}

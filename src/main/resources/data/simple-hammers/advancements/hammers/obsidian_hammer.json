@@ -1,0 +1,36 @@
+{
+  "parent": "simple-hammers:hammers/diamond_hammer",
+  "display": {
+    "icon": {
+      "item": "simple-hammers:obsidian_hammer"
+    },
+    "title": {
+      "translate": "simple-hammers.advancements.obsidian_hammer.title"
+    },
+    "description": {
+      "translate": "simple-hammers.advancements.obsidian_hammer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "obsidian_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["simple-hammers:obsidian_hammer"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_hammer"
+    ]
+  ]
+}

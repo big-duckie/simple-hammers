@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.bigduckie.simplehammers.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"HammerKnockbackMixin",
+		"SilkTouchEnchantmentMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

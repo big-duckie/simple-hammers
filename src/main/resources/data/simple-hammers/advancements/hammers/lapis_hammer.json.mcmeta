@@ -1,0 +1,5 @@
+{
+    "when": [
+        { "libcd:item_exists": "simple-hammers:lapis_hammer" }
+    ]
+}

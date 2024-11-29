@@ -2,7 +2,7 @@
 
 Simple Hammers is a mod that adds new mining tools via Fabric. They make large quarries much easier.
 
-This mod is a updated fork of Draylar's Vanilla Hammers.
+This mod is an updated fork of Draylar's Vanilla Hammers.
 
 ## Installation
 

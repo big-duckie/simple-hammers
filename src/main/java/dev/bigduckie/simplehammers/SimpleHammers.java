@@ -21,7 +21,7 @@ import net.minecraft.util.Identifier;
 
 public class SimpleHammers implements ModInitializer {
 
-    public static String MODID = "simple-hammers";
+    public static String MOD_ID = "simple-hammers";
     public static SimpleHammersConfig CONFIG = OmegaConfig.register(SimpleHammersConfig.class);
     private static final RegistryKey<ItemGroup> ITEM_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, id("group"));
 
@@ -29,12 +29,7 @@ public class SimpleHammers implements ModInitializer {
     public void onInitialize() {
         MagnaOptionals.optInForCurse();
         StaticContent.load(id("hammers"), HammerData.class);
-        Registry.register(Registries.ITEM_GROUP, ITEM_GROUP, FabricItemGroup.builder()
-                .displayName(Text.translatable("itemGroup.simple-hammers.group"))
-                .icon(() -> new ItemStack(Registries.ITEM.get(id("diamond_hammer"))))
-                .entries((context, entries) -> entries.addAll(HammerData.ENTRY_SET))
-                .build()
-        );
+        Registry.register(Registries.ITEM_GROUP, ITEM_GROUP, FabricItemGroup.builder().displayName(Text.translatable("itemGroup.simple-hammers.group")).icon(() -> new ItemStack(Registries.ITEM.get(id("diamond_hammer")))).entries((context, entries) -> entries.addAll(HammerData.ENTRY_SET)).build());
         registerCallbackHandlers();
     }
 
@@ -53,6 +48,6 @@ public class SimpleHammers implements ModInitializer {
     }
 
     public static Identifier id(String name) {
-        return new Identifier(MODID, name);
+        return new Identifier(MOD_ID, name);
     }
 }
